@@ -7,7 +7,7 @@ import React, { useEffect, useState } from 'react';
 
      const fetchVulns = () => {
        setLoading(true);
-       fetch('https://security-dashboard-vab7.onrender.com')
+       fetch('https://security-dashboard-vab7.onrender.com/api/vulnerabilities')
          .then(res => res.json())
          .then(data => {
            setVulnerabilities(data);
