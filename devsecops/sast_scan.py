@@ -27,7 +27,7 @@ vulnerabilities_found = [
 ]
 
 def send_to_dashboard():
-    url = "http://127.0.0.1:8000/api/vulnerabilities"
+    url = "https://security-dashboard-vab7.onrender.com/api/vulnerabilities"
     headers = {"Content-Type": "application/json"}
     
     print("🚀 Iniciando análise de segurança da pasta 'devsecops'...")
